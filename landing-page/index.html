@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetMeet - Find Pet-Friendly Places & Events Near You!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-paw"></i>
+                <span>PetMeet</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#benefits" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#signup" class="nav-link nav-cta">Join Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Find Pet-Friendly Places & Events Near You!</h1>
+                <p class="hero-subtitle">Connect with fellow pet owners, discover amazing pet-friendly locations, and create unforgettable memories with your furry friends.</p>
+                
+                <form class="hero-signup-form" id="heroSignupForm">
+                    <div class="form-group">
+                        <input type="email" id="heroEmail" placeholder="Enter your email address" required>
+                        <button type="submit" class="cta-button">
+                            <i class="fas fa-paper-plane"></i>
+                            Get Started
+                        </button>
+                    </div>
+                    <div class="form-message" id="heroFormMessage"></div>
+                </form>
+
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Pet Owners</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Pet-Friendly Places</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1K+</span>
+                        <span class="stat-label">Events Monthly</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Happy dog owners in a park" />
+                <div class="hero-image-overlay">
+                    <i class="fas fa-heart floating-icon"></i>
+                    <i class="fas fa-paw floating-icon"></i>
+                    <i class="fas fa-bone floating-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2 class="section-title">Why Pet Owners Love PetMeet</h2>
+            <p class="section-subtitle">Discover a world of possibilities for you and your furry companion</p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Discover New Places</h3>
+                    <p>Find pet-friendly cafes, parks, restaurants, and venues in your neighborhood and beyond. Never run out of exciting places to explore with your pet.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Meet Fellow Pet Owners</h3>
+                    <p>Connect with like-minded pet lovers in your area. Build lasting friendships and create a supportive community for both you and your pets.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Attend Fun Events</h3>
+                    <p>Join exciting pet-friendly events, from training sessions to social meetups. Keep your pet active, social, and entertained.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Getting started is as easy as 1, 2, 3!</p>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3>Sign Up Free</h3>
+                    <p>Create your profile and tell us about your pet. It takes less than 2 minutes!</p>
+                </div>
+                
+                <div class="step-connector">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Explore & Discover</h3>
+                    <p>Browse pet-friendly places and events near you. Use filters to find exactly what you're looking for.</p>
+                </div>
+                
+                <div class="step-connector">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Connect & Enjoy</h3>
+                    <p>Join events, visit new places, and create amazing memories with your pet and new friends!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="signup" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Pet's Social Journey?</h2>
+                <p>Join thousands of pet owners who have already discovered their new favorite spots and made lasting connections.</p>
+                
+                <form class="cta-signup-form" id="ctaSignupForm">
+                    <div class="form-group">
+                        <input type="email" id="ctaEmail" placeholder="Enter your email to get started" required>
+                        <button type="submit" class="cta-button">
+                            <i class="fas fa-rocket"></i>
+                            Join PetMeet
+                        </button>
+                    </div>
+                    <div class="form-message" id="ctaFormMessage"></div>
+                </form>
+                
+                <div class="cta-features">
+                    <div class="feature">
+                        <i class="fas fa-check"></i>
+                        <span>100% Free to Join</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check"></i>
+                        <span>No Credit Card Required</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check"></i>
+                        <span>Instant Access</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cta-image">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Dogs playing in a park" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-paw"></i>
+                        <span>PetMeet</span>
+                    </div>
+                    <p>Connecting pet owners and creating unforgettable experiences, one paw at a time.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Safety</a></li>
+                            <li><a href="#">Community Guidelines</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> hello@petmeet.com</p>
+                            <p><i class="fas fa-phone"></i> 1-800-PET-MEET</p>
+                            <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 PetMeet. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <button class="floating-cta" id="floatingCta">
+        <i class="fas fa-plus"></i>
+        <span>Join Now</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
